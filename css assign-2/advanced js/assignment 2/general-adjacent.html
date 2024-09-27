@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: red;
+        }
+        #container > p{
+            background-color: teal;
+        }
+       span > p{
+        background-color: yellow;
+       } 
+       #container ~ p{
+        background-color: orange;
+       }
+       
+    </style>
+</head>
+<body>
+     <h1>general sibling selector</h1>
+     <h1>student task: what is bg color of p1,p2,p3,p4</h1>
+     <div id="container">
+        <p>iam p1</p>
+        <div>
+            <p>iam para2</p>
+        </div>
+     </div>
+     <p>IAM P3</p>
+     <p>IAM P4</p>
+     <p>iam p5</p>
+</body>
+</html>
